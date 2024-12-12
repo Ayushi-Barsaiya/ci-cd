@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-with open("C:/Users/ayushi.barsaiya/Desktop/projects/flask/mlops_env/classifier.pkl", "rb") as modelFile:
+with open("classifier.pkl", "rb") as modelFile:
 
     model = pickle.load(modelFile)
 
